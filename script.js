@@ -7,5 +7,16 @@ function total(arr) {
   }
   return s;
 }
+function largest(arr) {
+  let b = arr[0];
+  for (let i = 1; i < arr.length; i = i + 1) {
+    if (arr[i] > b) {
+      b = arr[i];
+    }
+  }
+  return b;
+}
+
 
 console.log(total(nums));
+console.log(largest(nums));
