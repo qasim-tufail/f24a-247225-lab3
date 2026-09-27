@@ -1,4 +1,14 @@
 header{
+    padding: 20px;
+    height: 70px;
     background-color: olive;
     color: white;
+}
+body{
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+button{
+    height: 40px;
+    width: 60px;
 }
